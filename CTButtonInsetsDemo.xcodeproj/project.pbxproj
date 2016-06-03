@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ED42AF51D01738300625CE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED42AF41D01738300625CE9 /* main.m */; };
+		0ED42AF81D01738300625CE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED42AF71D01738300625CE9 /* AppDelegate.m */; };
+		0ED42AFB1D01738300625CE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED42AFA1D01738300625CE9 /* ViewController.m */; };
+		0ED42AFE1D01738300625CE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ED42AFC1D01738300625CE9 /* Main.storyboard */; };
+		0ED42B001D01738300625CE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ED42AFF1D01738300625CE9 /* Assets.xcassets */; };
+		0ED42B031D01738300625CE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ED42B011D01738300625CE9 /* LaunchScreen.storyboard */; };
+		0ED42B0E1D01738400625CE9 /* CTButtonInsetsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED42B0D1D01738400625CE9 /* CTButtonInsetsDemoTests.m */; };
+		0ED42B191D01738400625CE9 /* CTButtonInsetsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED42B181D01738400625CE9 /* CTButtonInsetsDemoUITests.m */; };
+		0ED42B291D01739600625CE9 /* UIButton+ImageTitleInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED42B281D01739600625CE9 /* UIButton+ImageTitleInsets.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0ED42B0A1D01738400625CE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ED42AE81D01738300625CE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0ED42AEF1D01738300625CE9;
+			remoteInfo = CTButtonInsetsDemo;
+		};
+		0ED42B151D01738400625CE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ED42AE81D01738300625CE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0ED42AEF1D01738300625CE9;
+			remoteInfo = CTButtonInsetsDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ED42AF01D01738300625CE9 /* CTButtonInsetsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTButtonInsetsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ED42AF41D01738300625CE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0ED42AF61D01738300625CE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0ED42AF71D01738300625CE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0ED42AF91D01738300625CE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0ED42AFA1D01738300625CE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0ED42AFD1D01738300625CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0ED42AFF1D01738300625CE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0ED42B021D01738300625CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0ED42B041D01738300625CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ED42B091D01738400625CE9 /* CTButtonInsetsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CTButtonInsetsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ED42B0D1D01738400625CE9 /* CTButtonInsetsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTButtonInsetsDemoTests.m; sourceTree = "<group>"; };
+		0ED42B0F1D01738400625CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ED42B141D01738400625CE9 /* CTButtonInsetsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CTButtonInsetsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ED42B181D01738400625CE9 /* CTButtonInsetsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTButtonInsetsDemoUITests.m; sourceTree = "<group>"; };
+		0ED42B1A1D01738400625CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ED42B271D01739600625CE9 /* UIButton+ImageTitleInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleInsets.h"; sourceTree = "<group>"; };
+		0ED42B281D01739600625CE9 /* UIButton+ImageTitleInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleInsets.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0ED42AED1D01738300625CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ED42B061D01738400625CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ED42B111D01738400625CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ED42AE71D01738300625CE9 = {
+			isa = PBXGroup;
+			children = (
+				0ED42B261D01739600625CE9 /* CTButtonInsetsCategory */,
+				0ED42AF21D01738300625CE9 /* CTButtonInsetsDemo */,
+				0ED42B0C1D01738400625CE9 /* CTButtonInsetsDemoTests */,
+				0ED42B171D01738400625CE9 /* CTButtonInsetsDemoUITests */,
+				0ED42AF11D01738300625CE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0ED42AF11D01738300625CE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0ED42AF01D01738300625CE9 /* CTButtonInsetsDemo.app */,
+				0ED42B091D01738400625CE9 /* CTButtonInsetsDemoTests.xctest */,
+				0ED42B141D01738400625CE9 /* CTButtonInsetsDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0ED42AF21D01738300625CE9 /* CTButtonInsetsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0ED42AF61D01738300625CE9 /* AppDelegate.h */,
+				0ED42AF71D01738300625CE9 /* AppDelegate.m */,
+				0ED42AF91D01738300625CE9 /* ViewController.h */,
+				0ED42AFA1D01738300625CE9 /* ViewController.m */,
+				0ED42AFC1D01738300625CE9 /* Main.storyboard */,
+				0ED42AFF1D01738300625CE9 /* Assets.xcassets */,
+				0ED42B011D01738300625CE9 /* LaunchScreen.storyboard */,
+				0ED42B041D01738300625CE9 /* Info.plist */,
+				0ED42AF31D01738300625CE9 /* Supporting Files */,
+			);
+			path = CTButtonInsetsDemo;
+			sourceTree = "<group>";
+		};
+		0ED42AF31D01738300625CE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0ED42AF41D01738300625CE9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0ED42B0C1D01738400625CE9 /* CTButtonInsetsDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0ED42B0D1D01738400625CE9 /* CTButtonInsetsDemoTests.m */,
+				0ED42B0F1D01738400625CE9 /* Info.plist */,
+			);
+			path = CTButtonInsetsDemoTests;
+			sourceTree = "<group>";
+		};
+		0ED42B171D01738400625CE9 /* CTButtonInsetsDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0ED42B181D01738400625CE9 /* CTButtonInsetsDemoUITests.m */,
+				0ED42B1A1D01738400625CE9 /* Info.plist */,
+			);
+			path = CTButtonInsetsDemoUITests;
+			sourceTree = "<group>";
+		};
+		0ED42B261D01739600625CE9 /* CTButtonInsetsCategory */ = {
+			isa = PBXGroup;
+			children = (
+				0ED42B271D01739600625CE9 /* UIButton+ImageTitleInsets.h */,
+				0ED42B281D01739600625CE9 /* UIButton+ImageTitleInsets.m */,
+			);
+			path = CTButtonInsetsCategory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0ED42AEF1D01738300625CE9 /* CTButtonInsetsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ED42B1D1D01738400625CE9 /* Build configuration list for PBXNativeTarget "CTButtonInsetsDemo" */;
+			buildPhases = (
+				0ED42AEC1D01738300625CE9 /* Sources */,
+				0ED42AED1D01738300625CE9 /* Frameworks */,
+				0ED42AEE1D01738300625CE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTButtonInsetsDemo;
+			productName = CTButtonInsetsDemo;
+			productReference = 0ED42AF01D01738300625CE9 /* CTButtonInsetsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0ED42B081D01738400625CE9 /* CTButtonInsetsDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ED42B201D01738400625CE9 /* Build configuration list for PBXNativeTarget "CTButtonInsetsDemoTests" */;
+			buildPhases = (
+				0ED42B051D01738400625CE9 /* Sources */,
+				0ED42B061D01738400625CE9 /* Frameworks */,
+				0ED42B071D01738400625CE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0ED42B0B1D01738400625CE9 /* PBXTargetDependency */,
+			);
+			name = CTButtonInsetsDemoTests;
+			productName = CTButtonInsetsDemoTests;
+			productReference = 0ED42B091D01738400625CE9 /* CTButtonInsetsDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0ED42B131D01738400625CE9 /* CTButtonInsetsDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ED42B231D01738400625CE9 /* Build configuration list for PBXNativeTarget "CTButtonInsetsDemoUITests" */;
+			buildPhases = (
+				0ED42B101D01738400625CE9 /* Sources */,
+				0ED42B111D01738400625CE9 /* Frameworks */,
+				0ED42B121D01738400625CE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0ED42B161D01738400625CE9 /* PBXTargetDependency */,
+			);
+			name = CTButtonInsetsDemoUITests;
+			productName = CTButtonInsetsDemoUITests;
+			productReference = 0ED42B141D01738400625CE9 /* CTButtonInsetsDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0ED42AE81D01738300625CE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = changchentao;
+				TargetAttributes = {
+					0ED42AEF1D01738300625CE9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					0ED42B081D01738400625CE9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0ED42AEF1D01738300625CE9;
+					};
+					0ED42B131D01738400625CE9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0ED42AEF1D01738300625CE9;
+					};
+				};
+			};
+			buildConfigurationList = 0ED42AEB1D01738300625CE9 /* Build configuration list for PBXProject "CTButtonInsetsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0ED42AE71D01738300625CE9;
+			productRefGroup = 0ED42AF11D01738300625CE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0ED42AEF1D01738300625CE9 /* CTButtonInsetsDemo */,
+				0ED42B081D01738400625CE9 /* CTButtonInsetsDemoTests */,
+				0ED42B131D01738400625CE9 /* CTButtonInsetsDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0ED42AEE1D01738300625CE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ED42B031D01738300625CE9 /* LaunchScreen.storyboard in Resources */,
+				0ED42B001D01738300625CE9 /* Assets.xcassets in Resources */,
+				0ED42AFE1D01738300625CE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ED42B071D01738400625CE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ED42B121D01738400625CE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0ED42AEC1D01738300625CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ED42AFB1D01738300625CE9 /* ViewController.m in Sources */,
+				0ED42AF81D01738300625CE9 /* AppDelegate.m in Sources */,
+				0ED42B291D01739600625CE9 /* UIButton+ImageTitleInsets.m in Sources */,
+				0ED42AF51D01738300625CE9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ED42B051D01738400625CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ED42B0E1D01738400625CE9 /* CTButtonInsetsDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ED42B101D01738400625CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ED42B191D01738400625CE9 /* CTButtonInsetsDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0ED42B0B1D01738400625CE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0ED42AEF1D01738300625CE9 /* CTButtonInsetsDemo */;
+			targetProxy = 0ED42B0A1D01738400625CE9 /* PBXContainerItemProxy */;
+		};
+		0ED42B161D01738400625CE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0ED42AEF1D01738300625CE9 /* CTButtonInsetsDemo */;
+			targetProxy = 0ED42B151D01738400625CE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0ED42AFC1D01738300625CE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0ED42AFD1D01738300625CE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0ED42B011D01738300625CE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0ED42B021D01738300625CE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0ED42B1B1D01738400625CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0ED42B1C1D01738400625CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0ED42B1E1D01738400625CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CTButtonInsetsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cct.CTButtonInsetsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0ED42B1F1D01738400625CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CTButtonInsetsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cct.CTButtonInsetsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0ED42B211D01738400625CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CTButtonInsetsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cct.CTButtonInsetsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CTButtonInsetsDemo.app/CTButtonInsetsDemo";
+			};
+			name = Debug;
+		};
+		0ED42B221D01738400625CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CTButtonInsetsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cct.CTButtonInsetsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CTButtonInsetsDemo.app/CTButtonInsetsDemo";
+			};
+			name = Release;
+		};
+		0ED42B241D01738400625CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CTButtonInsetsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cct.CTButtonInsetsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CTButtonInsetsDemo;
+			};
+			name = Debug;
+		};
+		0ED42B251D01738400625CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CTButtonInsetsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cct.CTButtonInsetsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CTButtonInsetsDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0ED42AEB1D01738300625CE9 /* Build configuration list for PBXProject "CTButtonInsetsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ED42B1B1D01738400625CE9 /* Debug */,
+				0ED42B1C1D01738400625CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ED42B1D1D01738400625CE9 /* Build configuration list for PBXNativeTarget "CTButtonInsetsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ED42B1E1D01738400625CE9 /* Debug */,
+				0ED42B1F1D01738400625CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0ED42B201D01738400625CE9 /* Build configuration list for PBXNativeTarget "CTButtonInsetsDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ED42B211D01738400625CE9 /* Debug */,
+				0ED42B221D01738400625CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0ED42B231D01738400625CE9 /* Build configuration list for PBXNativeTarget "CTButtonInsetsDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ED42B241D01738400625CE9 /* Debug */,
+				0ED42B251D01738400625CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0ED42AE81D01738300625CE9 /* Project object */;
+}
